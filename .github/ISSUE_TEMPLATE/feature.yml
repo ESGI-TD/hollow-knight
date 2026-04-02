@@ -1,0 +1,25 @@
+name: "Feature"
+description: Create a ticket for a new feature
+title: "[FEATURE] - "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Title example: [FEATURE] - Create new...
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Add a desription for your feature request"
+      placeholder: "Description here…"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

@@ -1,0 +1,45 @@
+name: Fix
+title: "[Fix] - "
+description: Report a bug or something that is not working properly
+labels: ["Fix"]
+assignees: ["FierensDev"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Title example: [Fix] - Infinite loading at page change
+  - type: dropdown
+    id: device
+    attributes:
+      label: Which device?
+      multiple: true
+      options:
+        - phone
+        - tablet
+        - computer
+        - other
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Explain the bug
+      description: You can tell us what did you expect to happen first and then what happen.
+      placeholder: So i wanted to go on homepage and then it was loading for 5minutes...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload screenshots
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
