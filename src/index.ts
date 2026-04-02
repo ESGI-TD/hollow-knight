@@ -14,7 +14,7 @@ class Entity {
 
 const mainCharacter = new Entity(
   "The Knight",
-  100,
+  5,
   "./src/image/The_Knight_Front.png",
   5,
 );
