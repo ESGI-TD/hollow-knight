@@ -1,7 +1,7 @@
 # Description
 
 Close # (issue)
-explain the changes of the bug
+explain the changes
 
 # How it was tested?
 
