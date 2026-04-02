@@ -2,6 +2,7 @@ name: Fix
 title: "[Fix] - "
 description: Report a bug or something that is not working properly
 labels: ["Fix"]
+type: "Bug"
 assignees: ["FierensDev"]
 
 body:
@@ -32,7 +33,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/ESGI-TD/hollow-knight/blob/main/CODE_OF_CONDUCT.md).
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
