@@ -1,0 +1,29 @@
+{
+  "name": "hollow-knight",
+  "version": "1.0.0",
+  "description": "Write a short sentence or two about this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "eslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ESGI-TD/hollow-knight.git"
+  },
+  "author": "Komaeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ESGI-TD/hollow-knight/issues"
+  },
+  "homepage": "https://github.com/ESGI-TD/hollow-knight#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.58.0"
+  }
+}
