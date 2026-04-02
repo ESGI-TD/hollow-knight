@@ -1,7 +1,10 @@
 name: "Feature"
 description: Create a ticket for a new feature
 title: "[FEATURE] - "
-labels: ["feature"]
+labels: ["Feature"]
+type: "Feature"
+assignees: ["KomaedaN"]
+
 body:
   - type: markdown
     attributes:
