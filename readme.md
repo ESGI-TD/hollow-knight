@@ -1,47 +1,54 @@
-# Hollow knight
+# Hollow Knight Wiki 🐛
 
-Application on the theme of Hollow Knight ! 
-You will be abble to explore the world of hollow knight here
+A small web wiki displaying the main character and bosses from Hollow Knight, with their stats (HP, damage, and image).
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+## Preview
 
-![alt tag](http://placecorgi.com/1200/650)
+![Hollow Knight](./src/image/The_Knight_Front.png)
 
-## How It's Made:
+## Getting Started
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+### Prerequisites
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+- [Node.js](https://nodejs.org/) >= 20
+- npm
 
-## Optimizations
-*(optional)*
+### Installation
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+```bash
+git clone https://github.com/ESGI-TD/hollow-knight.git
+cd hollow-knight
+npm install
+```
 
-## Lessons Learned:
+## Tech Stack
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+- **TypeScript** — typed JavaScript
+- **HTML / CSS** — structure and styling
+- **ESLint** — linting
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+## Project Structure
 
-**Palettable:** https://github.com/alecortega/palettable
+```
+hollow-knight/
+├── src/
+│   └── index.ts        # Main entry point
+├── dist/               # Compiled JS (generated)
+├── index.html          # Main HTML page
+├── styles.css          # Styles
+├── tsconfig.json
+└── package.json
+```
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+## Scripts
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+| Command        | Description        |
+| -------------- | ------------------ |
+| `tsc`          | Compile TypeScript |
+| `npm run lint` | Run ESLint         |
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+## Features
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+- Display the main character **The Knight** with his stats
+- Display bosses with their HP, damage and image
+- Clean and simple wiki layout

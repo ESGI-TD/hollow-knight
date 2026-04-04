@@ -1,32 +1,22 @@
 # Contributing
 
-## Prerequisites
-- Node.js v18+
-- Git
+## Report a bug
 
-## Setup
-```bash
-git clone https://github.com/FierensDev/<repo>.git
-cd <repo>
-npm install
-```
+- Check if your issue isn't already listed in the issues
+- Create a new issue using 'Fix' template and follow the rules
 
-## Workflow
-1. Fork le repo
-2. Crée une branche : `git checkout -b fix/ma-correction`
-3. Commit : `git commit -m "fix: description"`
-4. Push : `git push origin fix/ma-correction`
-5. Ouvre une PR vers `main`
+## New feature
 
-## Conventions
-- Branches : `feature/`, `fix/`, `hotfix/`, `docs/`
-- Commits : suivre [Conventional Commits](https://www.conventionalcommits.org/)
-- Une PR = une fonctionnalité ou un fix
+- check if your feature isn't already listed in the issues
+- Create a new feature using 'Feature' template and follow the rules
 
 ## Rules
-- Toujours ouvrir une issue avant une PR
-- Ne pas push directement sur `main`
-- Le code doit passer le linter
 
-## Questions
-Ouvre une [issue](https://github.com/FierensDev/<repo>/issues).
+- Branches (Git flow) : `feature/`, `fix/`, `hotfix/`, `release/`
+- Commits : `feature : short description (less than 72character)`
+
+> [!WARNING]
+> Be sure that your code works with the linter
+
+> [!IMPORTANT]
+> Check the code of conduct [Code of Conduct](https://github.com/ESGI-TD/hollow-knight/blob/main/CODE_OF_CONDUCT.md).
