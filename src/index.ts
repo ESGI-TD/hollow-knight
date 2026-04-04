@@ -39,7 +39,7 @@ const bossData: [string, number, string, number][] = [
   ["Radiance", 150, "Radiance", 10],
   ["Grimm", 95, "Grimm", 7],
   ["Grimm Cauchemar", 130, "GrimmCauchemar", 9],
-  ["Zote le Redoutable", 25, "Zote", 0],
+  ["Zote le Redoutable", 25, "Zote", 77],
 ];
 
 class Boss extends Entity {
@@ -49,7 +49,8 @@ class Boss extends Entity {
 }
 
 const bosses: Boss[] = bossData.map(
-  ([name, hp, img, dmg]) => new Boss(name, hp, `./src/image/bosses/${img}.png`, dmg)
+  ([name, hp, img, dmg]) =>
+    new Boss(name, hp, `./src/image/bosses/${img}.png`, dmg),
 );
 
 const containerBoss = document.getElementById("boss");
