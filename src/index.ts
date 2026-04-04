@@ -58,7 +58,7 @@ if (containerBoss) {
   bosses.forEach((boss) => {
     containerBoss.innerHTML += `
         <h2>${boss.name}</h2>
-        <img src="${boss}" width="150" />
+        <img src="${boss.image}" width="150" />
         <p>HP: ${boss.hp}</p>
         <p>Damage: ${boss.dmg}</p>
       `;
