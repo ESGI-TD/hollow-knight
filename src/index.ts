@@ -13,7 +13,7 @@ class Entity {
 }
 
 const bossData: [string, number, string, number][] = [
-  ["Faux Chevalier", 50, "FauxChevalier", 4],
+  ["Faux Chevalier", 50, "FauxChevalier", 10],
   ["Mère Gruz", 30, "MereGruz", 3],
   ["Hornet Protectrice", 60, "Hornet1", 5],
   ["Chargeur de Mousse Massif", 40, "ChargeurMousse", 4],
