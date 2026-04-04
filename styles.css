@@ -5,3 +5,12 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: blue;
 }
+
+.boss__section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.boss__card {
+  grid-column: span 4;
+}

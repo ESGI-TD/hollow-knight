@@ -58,15 +58,14 @@ const containerBoss = document.getElementById("boss");
 if (containerBoss) {
   bosses.forEach((boss) => {
     containerBoss.innerHTML += `
+    <div class="boss__card">
         <h2>${boss.name}</h2>
-        <img src="${boss}" width="150" />
+        <img src="${boss.image}" width="150" />
         <p>HP: ${boss.hp}</p>
         <p>Damage: ${boss.dmg}</p>
+    </div>
       `;
   });
-  const div = document.createElement("div");
-
-  containerBoss.appendChild(div);
 }
 
 const mainCharacter = new Entity(
