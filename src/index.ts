@@ -48,6 +48,10 @@ class Boss extends Entity {
   }
 }
 
+const bosses: Boss[] = bossData.map(
+  ([name, hp, img, dmg]) => new Boss(name, hp, `./src/image/bosses/${img}.png`, dmg)
+);
+
 const mainCharacter = new Entity(
   "The Knight",
   5,
