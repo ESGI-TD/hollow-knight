@@ -42,6 +42,11 @@ const bossData: [string, number, string, number][] = [
   ["Zote le Redoutable",          25, "Zote",               0],
 ];
 
+class Boss extends Entity {
+  constructor(name: string, hp: number, image: string, dmg: number) {
+    super(name, hp, image, dmg);
+  }
+}
 
 const mainCharacter = new Entity(
   "The Knight",
