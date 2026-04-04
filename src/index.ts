@@ -12,6 +12,12 @@ class Entity {
   }
 }
 
+class Boss extends Entity {
+  constructor(name: string, hp: number, image: string, dmg: number) {
+    super(name, hp, image, dmg);
+  }
+}
+
 const mainCharacter = new Entity(
   "The Knight",
   5,
